@@ -1,0 +1,13 @@
+.toolbar {
+	width: 178px;
+	float:left;
+	min-height:100%;
+}
+
+.toolbar h1 {
+	display: block;
+}
+
+.main {
+
+}
