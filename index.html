@@ -5,6 +5,7 @@
 		<link rel="shortcut icon" href="fonts/paintpng.ico" />
     <title>Paint Pour Generator</title>
 		
+		<script src="https://use.fontawesome.com/757284cec2.js"></script>
 		<script type="text/javascript">
     	var cp = '';
     </script>
@@ -63,11 +64,23 @@
 							<div class = "sliderContainer" id = "randomnessSlider"></div>
 							<div class = "sliderContainer" id = "frequencySlider"></div>
 							<div class = "buttonContainer" id = "buttons">
-							<div class="buttonholder" id="button1"></div>
-							<div class="buttonholder" id="button2"></div>
-							<div class="buttonholder" id="button3"></div>
-							<div class="buttonholder" id="button4"></div>
-						</div>
+								<div class = "buttonRow" id = "row1">
+									<div onclick="startDraw()" class="buttonholder" id="button1">
+										<i class="fa fa-play-circle-o fa-5x" aria-hidden="true"></i>
+									</div>
+									<div onclick="stopDraw()" class="buttonholder" id="button2">
+										<i class="fa fa-pause-circle-o fa-5x" aria-hidden="true"></i>
+									</div>
+								</div>
+								<div class = "buttonRow" id = "row2">
+									<div onclick="saveScreenShot()" class="buttonholder" id="button3">
+										<i class="fa fa-floppy-o fa-5x" aria-hidden="true"></i>
+									</div>
+									<div onclick="reset()" class="buttonholder" id="button4">
+										<i class="fa fa-eraser fa-5x" aria-hidden="true"></i>
+									</div>
+								</div>
+							</div>
           </div>
       
       </div>
